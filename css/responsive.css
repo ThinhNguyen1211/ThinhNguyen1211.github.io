@@ -17,6 +17,19 @@
         display: inline-block;
     }
 
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    nav li a {
+        padding; 1 24px;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
     #header {
         overflow: hidden;
     }
@@ -74,12 +87,6 @@
         width: auto;
     }
     .modal-container {
-        background: #fff;
-        width: 900px;
-        min-height: 200px;
-        max-width: calc(100%-32px);
-        position: relative;
-        animation: modalmotion ease 0.5s;
         margin: 0 8px 0 8px;
     }
 }
