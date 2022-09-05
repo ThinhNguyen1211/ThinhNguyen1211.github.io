@@ -57,6 +57,8 @@ html {
     padding: 11px 17px;
     text-decoration: none;
     display: inline-block;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .gray-fonts {
@@ -99,7 +101,7 @@ z-index: 1;
 }
 
 #nav {
- display: inline-block;
+    display: inline-block;
 }
 
 #nav > li {
@@ -116,8 +118,8 @@ z-index: 1;
 #nav .subnav {
     list-style-type: none;  
     background-color: #fff;
-    position: absolute;
     display: none;
+    position: absolute;
     top: 100%;
     min-width: 160px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
@@ -186,9 +188,10 @@ z-index: 1;
    font-size: 24px;
 }
 
-#slider .text-discription {
+#slider .text-description {
     margin-top: 25px;
     font-size: 15px;
+    text-shadow: 0 0 1px #000;
 }
 
 #content {
@@ -382,6 +385,14 @@ z-index: 1;
     font-size: 15px;
     padding: 11px;
     border: 1px solid #ccc ;
+}
+
+.my-email {
+    color: #757575;
+
+}
+.my-email:hover {
+    color: #000;
 }
 
 #buy-tickets {
