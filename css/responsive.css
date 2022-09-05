@@ -3,6 +3,19 @@
 
 }
 
+/* Mobile & Tablet*/
+@media only screen and (max-width: 63.9375em) {
+    .black-btn {
+        padding: 15px 16px;
+    }
+    .form-control {
+        padding: 15px;
+    }
+    .copyright a {
+        padding: 12px 0;
+    }
+}
+
 /* Mobile: width < 740px */
 @media only screen and (max-width: 46.1875em) {
     #nav {
@@ -62,6 +75,7 @@
     #content .members-img {
         width: 60%;
         border-radius: 4px;
+        margin-bottom: 16px;
     }
     .col {
         float: none;
@@ -88,6 +102,9 @@
     }
     .modal-container {
         margin: 0 8px 0 8px;
+    }
+    .black-btn {
+        width: 100%;
     }
 }
 
